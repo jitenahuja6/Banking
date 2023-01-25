@@ -29,7 +29,7 @@ public class ATM {
                     deposit();
                     break;
                 case 4:
-                    System.out.println("Thank you for using our ATM. Have a nice day!");
+                    System.out.println("Thank you for using our ATM. Have a wonderful day!");
                     break;
                 default:
                     System.out.println("Invalid choice. Please try again.");
