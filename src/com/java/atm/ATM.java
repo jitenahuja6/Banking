@@ -43,7 +43,7 @@ public class ATM {
 
     public static void withdraw() {
         double amount;
-        System.out.print("Enter amount to withdraw: $");
+        System.out.print("Plese enter amount to withdraw : $");
         amount = sc.nextDouble();
 
         if (amount > balance) {
