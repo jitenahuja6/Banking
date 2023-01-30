@@ -43,7 +43,7 @@ public class ATM {
 
     public static void withdraw() {
         double amount;
-        System.out.print("Enter amount to withdraw: $");
+        System.out.print("Plese enter amount to withdraw : $");
         amount = sc.nextDouble();
 
         if (amount > balance) {
@@ -51,7 +51,8 @@ public class ATM {
         } else {
             balance = balance - amount;
             System.out.println("Please collect your cash.");
-            System.out.println("Your current balance is: $" + balance);
+            System.out.println("Your curent balance is: $" + balance);
+            System.out.println("Adding for jiten-branch to test");
         }
     }
 
