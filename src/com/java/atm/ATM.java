@@ -30,6 +30,8 @@ public class ATM {
                     break;
                 case 4:
                     System.out.println("Thank you for using our ATM. Have a wonderful day!");
+                    System.out.println("Today is feb 15");
+                    System.out.println("Testing on jiten-banking");
                     break;
                 default:
                     System.out.println("Invalid choice. Please try again.");
